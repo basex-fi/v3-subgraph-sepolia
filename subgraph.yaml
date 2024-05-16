@@ -39,7 +39,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: Pool
-    network: mainnet
+    network: base-sepolia
     source:
       abi: Pool
     mapping:
