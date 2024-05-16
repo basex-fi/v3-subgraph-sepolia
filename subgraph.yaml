@@ -9,11 +9,11 @@ features:
 dataSources:
   - kind: ethereum/contract
     name: Factory
-    network: mainnet
+    network: base-sepolia
     source:
-      address: '0x1F98431c8aD98523631AE4a59f267346ea31F984'
+      address: '0x4752ba5DBc23f44D87826276BF6Fd6b1C372aD24'
       abi: Factory
-      startBlock: 12369621
+      startBlock: 5000583
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.7
